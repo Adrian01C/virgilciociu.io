@@ -1,0 +1,41 @@
+@import '_component/layout/general';
+
+@import '_component/marianzburlea/look';
+@import '_component/screpyy96/look';
+
+/* Variables for colors */
+$blue: #0078FF;
+$teal-blue: #00CAFF;
+$orange: #FF8F00;
+
+/* Using variables */
+.blue {
+  color: $blue;
+}
+
+/* Nesting example */
+header, footer {
+  background-color: $blue;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  
+  a {
+    color: $teal-blue;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+section {
+  animation: fadeIn 1s ease-in;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 2;
+  }
+}
