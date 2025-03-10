@@ -1,0 +1,38 @@
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE configurations
+.vscode/
+.idea/
+*.suo
+*.sw?
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Build directories
+dist/
+build/
+tmp/
+
+# Sass/SCSS cache
+*.sass-cache/
+
+# Compiled CSS (dacă generezi din SCSS)
+style.css
+style.css.map
+
+# Exclude everything in assets except images
+src/assets/*
+!src/assets/image/
+
+# Miscellaneous
+*.tmp
+*.bak
+*.cache
+*.lock
